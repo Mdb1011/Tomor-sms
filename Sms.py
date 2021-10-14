@@ -33,6 +33,6 @@ try:
     while True:
         requests.post(url,data=data)
         print("[+] Send SMS For Victim")
-        time.sleep(4)
+        time.sleep(1)
 except:
     print("\n[-] You Exit Tools !!")
